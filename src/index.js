@@ -7,16 +7,16 @@ const dockerHub = "https://registry-1.docker.io";
 
 const routes = {
   // production
-  "dhub.pingfury.top": dockerHub,
-  //"quay.pingfury.top": "https://quay.io",
+  "docker.pingfury.top": dockerHub,
+  "quay.pingfury.top": "https://quay.io",
   "gcr.pingfury.top": "https://gcr.io",
   "k8s-gcr.pingfury.top": "https://k8s.gcr.io",
-  //"k8s.pingfury.top": "https://registry.k8s.io",
+  "k8s.pingfury.top": "https://registry.k8s.io",
   "ghcr.pingfury.top": "https://ghcr.io",
-  //"cloudsmith.libcuda.so": "https://docker.cloudsmith.io",
+  "cloudsmith.pingfury.top": "https://docker.cloudsmith.io",
 
   // staging
-  "docker-staging.libcuda.so": dockerHub,
+  "docker-staging.pingfury.top": dockerHub,
 };
 
 function routeByHosts(host) {
